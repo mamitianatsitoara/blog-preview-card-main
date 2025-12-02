@@ -15,7 +15,7 @@
     background-color: hsl(0, 0%, 100%);
     max-width: 375px;
     border-radius: 15px;
-    box-shadow: 10px 8px 0 #000000;
+    box-shadow: 8px 8px 0 #000000;
     border: 1px solid black;
 
 }
@@ -32,7 +32,7 @@
     padding: 10px 0 0 0;
 }
 .vertical_box div{
-    padding: 10px 0 10px 0;
+    padding: 10px 0 0 0;
 }
 
 .bouton-jaune {
