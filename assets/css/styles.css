@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: center;    /* centre horizontalement */
+    align-items: center;        /* centre verticalement */
+    flex-direction: column;        /* en colonne */
+    gap: 20px;                  /* espace entre éléments */
+    height: 100vh;              /* occupe la hauteur de la fenêtre */
+    background: hsl(47, 88%, 63%);
+    margin: 0;
+    width: 100%;
+}
+
+.contenue {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 375px;
+    border-radius: 15px;
+    border-style: 5 solid black;
+
+}
+
+.vertical_box {
+    padding: 10px 20px;    
+    font-weight: 500;
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+.vertical_box img{
+    border-radius: 15px;
+    padding: 10px 0 0 0;
+}
+.vertical_box div{
+    padding: 10px 0 10px 0;
+}
+
+.bouton-jaune {
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 5px 10px;
+}
+.titre a{
+    font-weight: 800;
+    font-family: 'Figtree';
+    font-size: 23px;
+    color:#000000 ;
+    text-decoration: none;
+    
+}
+.titre a:hover{
+    color:hsl(47, 88%, 63%);
+       
+}
+.image_texte {
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.image_texte img {
+    width: 30px;
+  
+    
+}
+
+.image_texte p {
+    flex: 1; /* texte prend tout l’espace */
+    font-weight: 800;
+    font-family: 'Figtree';
+     
+}
