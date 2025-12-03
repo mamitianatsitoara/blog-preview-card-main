@@ -32,7 +32,7 @@
     padding: 10px 0 0 0;
 }
 .vertical_box div{
-    padding: 10px 0 0 0;
+    padding: 15px 0 0 0;
 }
 
 .bouton-jaune {
@@ -51,7 +51,9 @@
     color:#000000 ;
     text-decoration: none;
     
+    
 }
+
 .titre a:hover{
     color:hsl(47, 88%, 63%);
        
